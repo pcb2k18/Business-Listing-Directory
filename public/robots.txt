@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ghanainsider.com/sitemap.xml

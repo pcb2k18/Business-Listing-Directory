@@ -3,14 +3,12 @@
     <nav class="px-4 sm:px-6 lg:px-8" x-data="{ open: false }">
         <div class="flex justify-between items-center h-16">
             <!-- Logo -->
-            <div class="flex-shrink-0">
-                <a href="/" class="flex items-center space-x-2">
-                    <svg class="h-8 w-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5 2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                    </svg>
-                    <span class="text-xl font-bold text-gray-900">Ghana Insider</span>
-                </a>
-            </div>
+           <!-- Logo -->
+<div class="flex-shrink-0">
+    <a href="/" class="flex items-center">
+        <img class="h-[120px] w-auto" src="{{ asset('images/logo.png') }}" alt="Ghana Insider Logo">
+    </a>
+</div>
 
             <!-- Desktop Navigation -->
             <div class="hidden md:flex items-center space-x-8">
